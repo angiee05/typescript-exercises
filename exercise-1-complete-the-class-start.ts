@@ -34,9 +34,9 @@ class Currency {
         // Replace the `null` values below with the appropriate field values.
         // Hint: Access field values with: this.fieldName
 
-        let description = `The ${null} currency `;
-        description += `has the code ${null} `;
-        description += `and uses the symbol ${null}.`;
+        let description = `The ${this.name} currency `;
+        description += `has the code ${this.code} `;
+        description += `and uses the symbol ${this.symbol}.`;
 
         console.log(description);
     }
